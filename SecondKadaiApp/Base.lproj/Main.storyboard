@@ -25,14 +25,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9b-5S-AsV">
-                                <rect key="frame" x="164" y="471" width="46" height="30"/>
+                                <rect key="frame" x="164" y="571" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="yHG-YZ-0S2" kind="show" id="t2s-U0-hdh"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="佐野創一" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DaG-t7-s1I">
-                                <rect key="frame" x="148" y="391" width="79" height="30"/>
+                                <rect key="frame" x="148" y="491" width="79" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -47,7 +47,6 @@
                             <constraint firstItem="JiV-5p-GXj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="BbO-y2-SEg"/>
                             <constraint firstItem="h9b-5S-AsV" firstAttribute="top" secondItem="DaG-t7-s1I" secondAttribute="bottom" constant="50" id="N77-sA-OHT"/>
                             <constraint firstItem="h9b-5S-AsV" firstAttribute="centerX" secondItem="JiV-5p-GXj" secondAttribute="centerX" id="Pzd-gF-pF9"/>
-                            <constraint firstItem="DaG-t7-s1I" firstAttribute="top" secondItem="JiV-5p-GXj" secondAttribute="bottom" constant="200" id="Yag-jQ-L11"/>
                             <constraint firstItem="h9b-5S-AsV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uRC-Cv-q6Y"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
